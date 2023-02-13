@@ -1,0 +1,2 @@
+config SHIELD_UNICORNE
+	def_bool $(shields_list_contains,unicorne)

@@ -1,0 +1,6 @@
+if SHIELD_UNICORNE
+
+config ZMK_KEYBOARD_NAME
+    default "unicorne"
+
+endif

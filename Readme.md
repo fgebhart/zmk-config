@@ -1,4 +1,4 @@
-# Unicorne Keymap
+# unicorne Keymap
 
 This repo holds the keymap for the unicorne keyboard, a semi-wireless corne keyboard with a single MCU.
 
@@ -14,4 +14,6 @@ keymap draw -o '{split: true, rows: 3, columns: 6, thumbs: 3}' unicorne_keymap.y
 ```
 
 This produces the following SVG file:
+
+![](https://github.com/fgebhart/zmk-config/raw/master/config/boards/shields/unicorne/unicorne_keymap.svg)
 

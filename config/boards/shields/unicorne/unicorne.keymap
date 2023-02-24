@@ -10,11 +10,11 @@
 #include <dt-bindings/zmk/outputs.h>
 
 // definition of special keys mutated vowels (from german layout)
-#define DE_ADIA QUOT       // Ä
-#define DE_ODIA SCLN       // Ö
-#define DE_UDIA LBRC       // Ü
-#define DE_SS   MINS       // ß
-#define DE_EURO RA(DE_E)    // €
+#define DE_AE QUOT         // Ä
+#define DE_OE SCLN         // Ö
+#define DE_UE LBRC         // Ü
+#define DE_SS MINS         // ß
+#define DE_EURO RA(DE_E)   // €
 
 / {
         keymap {
@@ -53,7 +53,7 @@
 // |----------+----------+----------+----------+----------+----------|                        |----------+----------+----------+----------+----------+----------|
      &kp TAB    &kp EXCL   &kp AT     &kp HASH   &kp DLLR   &kp PRCNT                           &kp CARET &kp AMPS &kp KP_MULTIPLY &kp LPAR &kp RPAR   &kp DEL
 // |----------+----------+----------+----------+----------+----------|                        |----------+----------+----------+----------+----------+----------|
-     &kp LCTRL &kp DE_ADIA  &trans     &trans     &trans     &trans                             &kp MINUS  &kp EQUAL &kp LBKT    &kp RBKT   &kp BSLH   &kp GRAVE
+     &kp LCTRL &kp DE_AE  &kp DE_EURO  &trans     &trans     &trans                             &kp MINUS  &kp EQUAL &kp LBKT    &kp RBKT   &kp BSLH   &kp GRAVE
 // |----------+----------+----------+----------+----------+----------|                        |----------+----------+----------+----------+----------+----------|
      &kp LSHFT  &trans     &trans     &trans     &trans     &trans                              &kp UNDER  &kp PLUS   &kp LBRC   &kp RBRC   &kp PIPE  &kp TILDE
 // |----------+----------+----------+----------+----------+----------+----------|  |----------+----------+----------+----------+----------+----------+----------|

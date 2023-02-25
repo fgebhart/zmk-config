@@ -85,7 +85,7 @@ path {
 <rect rx="6.0" ry="6.0" x="662.0" y="58.0" width="56.0" height="52.0"/>
 <text x="690.0" y="84.0">P</text>
 <rect rx="6.0" ry="6.0" x="722.0" y="58.0" width="56.0" height="52.0"/>
-<text x="750.0" y="84.0">BSPC</text>
+<text x="750.0" y="84.0">&amp;bspdel</text>
 <rect rx="6.0" ry="6.0" x="32.0" y="114.0" width="56.0" height="52.0"/>
 <text x="60.0" y="140.0">LCTRL</text>
 <rect rx="6.0" ry="6.0" x="92.0" y="114.0" width="56.0" height="52.0"/>
@@ -170,7 +170,7 @@ path {
 <rect rx="6.0" ry="6.0" x="662.0" y="338.0" width="56.0" height="52.0"/>
 <text x="690.0" y="364.0">0</text>
 <rect rx="6.0" ry="6.0" x="722.0" y="338.0" width="56.0" height="52.0"/>
-<text x="750.0" y="364.0">DEL</text>
+<text x="750.0" y="364.0">&amp;bspdel</text>
 <rect rx="6.0" ry="6.0" x="32.0" y="394.0" width="56.0" height="52.0"/>
 <text x="60.0" y="420.0">LCTRL</text>
 <rect rx="6.0" ry="6.0" x="92.0" y="394.0" width="56.0" height="52.0"/>
@@ -243,7 +243,7 @@ path {
 <rect rx="6.0" ry="6.0" x="662.0" y="618.0" width="56.0" height="52.0"/>
 <text x="690.0" y="644.0">)</text>
 <rect rx="6.0" ry="6.0" x="722.0" y="618.0" width="56.0" height="52.0"/>
-<text x="750.0" y="644.0">DEL</text>
+<text x="750.0" y="644.0">&amp;bspdel</text>
 <rect rx="6.0" ry="6.0" x="32.0" y="674.0" width="56.0" height="52.0"/>
 <text x="60.0" y="700.0">LCTRL</text>
 <rect rx="6.0" ry="6.0" x="92.0" y="674.0" width="56.0" height="52.0"/>
@@ -319,7 +319,7 @@ path {
 <rect rx="6.0" ry="6.0" x="662.0" y="898.0" width="56.0" height="52.0"/>
 <text x="690.0" y="924.0">F10</text>
 <rect rx="6.0" ry="6.0" x="722.0" y="898.0" width="56.0" height="52.0"/>
-<text x="750.0" y="924.0">DEL</text>
+<text x="750.0" y="924.0">&amp;bspdel</text>
 <rect rx="6.0" ry="6.0" x="32.0" y="954.0" width="56.0" height="52.0"/>
 <text x="60.0" y="980.0">LCTRL</text>
 <rect rx="6.0" ry="6.0" x="92.0" y="954.0" width="56.0" height="52.0"/>
@@ -354,6 +354,7 @@ path {
 <rect rx="6.0" ry="6.0" x="152.0" y="1010.0" width="56.0" height="52.0"/>
 <rect rx="6.0" ry="6.0" x="212.0" y="1010.0" width="56.0" height="52.0"/>
 <rect rx="6.0" ry="6.0" x="272.0" y="1010.0" width="56.0" height="52.0"/>
+<text x="300.0" y="1036.0">&amp;email</text>
 <rect rx="6.0" ry="6.0" x="332.0" y="1010.0" width="56.0" height="52.0"/>
 <rect rx="6.0" ry="6.0" x="422.0" y="1010.0" width="56.0" height="52.0"/>
 <rect rx="6.0" ry="6.0" x="482.0" y="1010.0" width="56.0" height="52.0"/>

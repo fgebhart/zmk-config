@@ -74,7 +74,7 @@
             label = "ae_accented_vowel";
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
-            bindings = <&kp ae_l>, <&kp ae_u>;
+            bindings = <&ae_l>, <&ae_u>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
             keep-mods = <(MOD_RSFT)>;
         };

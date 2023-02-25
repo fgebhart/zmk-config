@@ -39,16 +39,22 @@
         email: email {
             label = "my_email";
             compatible = "zmk,behavior-macro";
+            wait-ms = <10>;
+            tap-ms = <10>;
             #binding-cells = <0>;
             bindings
-                = <&macro_tap &kp H &kp E &kp L &kp L &kp O>
-                , <&macro_tap &kp SPACE>
-                , <&macro_tap &kp W &kp O &kp R &kp L &kp D>
-                , <&macro_tap &kp EXCL>
+                = <&macro_tap &kp F &kp A &kp B &kp I &kp A &kp N>
+                , <&macro_tap &kp DOT>
+                , <&macro_tap &kp G &kp E &kp B &kp H &kp A &kp R &kp T>
+                , <&macro_tap &kp AT>
+                , <&macro_tap &kp G &kp M &kp A &kp I &kp L>
+                , <&macro_tap &kp DOT>
+                , <&macro_tap &kp C &kp O &kp M>
                 ;
         };
     };
 };
+// if you came until here and managed to decipher my email address, I'm happy to receive a mail from you :)
 
 / {
         keymap {

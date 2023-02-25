@@ -37,9 +37,9 @@
             #binding-cells = <0>;
             bindings
                 = <&macro_press &kp LCTRL>
-                , <&macro_press &kp LSHFT>
+                , <&macro_press &kp RSHFT>
                 , <&macro_tap &kp U &kp E &kp N4>
-                , <&macro_release &kp LSHFT>
+                , <&macro_release &kp RSHFT>
                 , <&macro_release &kp LCTRL>
                 ;
         };
@@ -51,9 +51,9 @@
             #binding-cells = <0>;
             bindings
                 = <&macro_press &kp LCTRL>
-                , <&macro_press &kp LSHFT>
+                , <&macro_press &kp RSHFT>
                 , <&macro_tap &kp U &kp C &kp N4>
-                , <&macro_release &kp LSHFT>
+                , <&macro_release &kp RSHFT>
                 , <&macro_release &kp LCTRL>
                 ;
         };

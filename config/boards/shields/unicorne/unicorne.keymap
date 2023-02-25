@@ -116,7 +116,7 @@
 // |----------+----------+----------+----------+----------+----------|                        |----------+----------+----------+----------+----------+----------|
      &kp TAB    &kp EXCL   &kp AT     &kp HASH   &kp DLLR   &kp PRCNT                           &kp CARET &kp AMPS &kp KP_MULTIPLY &kp LPAR &kp RPAR   &bspdel
 // |----------+----------+----------+----------+----------+----------|                        |----------+----------+----------+----------+----------+----------|
-     &kp LCTRL    &ae       &trans     &trans     &trans     &trans                             &kp MINUS  &kp EQUAL &kp LBKT    &kp RBKT   &kp BSLH   &kp GRAVE
+     &kp LCTRL    &ae_l      &ae_u     &trans     &trans     &trans                             &kp MINUS  &kp EQUAL &kp LBKT    &kp RBKT   &kp BSLH   &kp GRAVE
 // |----------+----------+----------+----------+----------+----------|                        |----------+----------+----------+----------+----------+----------|
      &kp LSHFT   &trans     &trans     &trans     &trans     &trans                             &kp UNDER  &kp PLUS   &kp LBRC   &kp RBRC   &kp PIPE  &kp TILDE
 // |----------+----------+----------+----------+----------+----------+----------|  |----------+----------+----------+----------+----------+----------+----------|

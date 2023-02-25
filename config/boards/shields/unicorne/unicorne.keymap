@@ -35,6 +35,22 @@
 };
 
 / {
+    macros {
+        email: email {
+            label = "my_email";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                , <&macro_tap &kp H &kp E &kp L &kp L &kp O>
+                , <&macro_tap &kp SPACE>
+                , <&macro_tap &kp W &kp O &kp R &kp L &kp D>
+                , <&macro_tap &kp EXCL>
+                ;
+        };
+    };
+};
+
+/ {
         keymap {
                 compatible = "zmk,keymap";
 
@@ -87,7 +103,7 @@
 // |----------+----------+----------+----------+----------+----------|                        |----------+----------+----------+----------+----------+----------|
      &kp LCTRL   &kp F11    &kp F12    &kp F13    &kp F14    &kp F15                          &kp C_BRI_DN &kp C_BRI_UP &kp C_VOL_DN &kp C_VOL_UP &kp C_PP &kp C_NEXT
 // |----------+----------+----------+----------+----------+----------|                        |----------+----------+----------+----------+----------+----------|
-     &kp LSHFT   &trans     &trans     &trans     &trans     &trans                              &trans   &trans &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_CLR
+     &kp LSHFT   &trans     &trans     &trans     &email     &trans                            &trans   &trans &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_CLR
 // |----------+----------+----------+----------+----------+----------+----------|  |----------+----------+----------+----------+----------+----------+----------|
                                                   &kp LGUI   &trans    &kp SPACE     &kp RET    &trans     &kp LALT  
 //                                             |----------+----------+----------|  |----------+----------+----------|

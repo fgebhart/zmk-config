@@ -334,16 +334,16 @@ path {
 <text x="360.0" y="980.0">F15</text>
 <rect rx="6.0" ry="6.0" x="422.0" y="954.0" width="56.0" height="52.0"/>
 <text x="450.0" y="980.0">
-<tspan x="450.0" dy="-0.6em">BRI</tspan><tspan x="450.0" dy="1.2em">UP</tspan></text>
+<tspan x="450.0" dy="-0.6em">BRI</tspan><tspan x="450.0" dy="1.2em">DN</tspan></text>
 <rect rx="6.0" ry="6.0" x="482.0" y="954.0" width="56.0" height="52.0"/>
 <text x="510.0" y="980.0">
-<tspan x="510.0" dy="-0.6em">BRI</tspan><tspan x="510.0" dy="1.2em">DN</tspan></text>
+<tspan x="510.0" dy="-0.6em">BRI</tspan><tspan x="510.0" dy="1.2em">UP</tspan></text>
 <rect rx="6.0" ry="6.0" x="542.0" y="954.0" width="56.0" height="52.0"/>
 <text x="570.0" y="980.0">
-<tspan x="570.0" dy="-0.6em">VOL</tspan><tspan x="570.0" dy="1.2em">UP</tspan></text>
+<tspan x="570.0" dy="-0.6em">VOL</tspan><tspan x="570.0" dy="1.2em">DN</tspan></text>
 <rect rx="6.0" ry="6.0" x="602.0" y="954.0" width="56.0" height="52.0"/>
 <text x="630.0" y="980.0">
-<tspan x="630.0" dy="-0.6em">VOL</tspan><tspan x="630.0" dy="1.2em">DN</tspan></text>
+<tspan x="630.0" dy="-0.6em">VOL</tspan><tspan x="630.0" dy="1.2em">UP</tspan></text>
 <rect rx="6.0" ry="6.0" x="662.0" y="954.0" width="56.0" height="52.0"/>
 <text x="690.0" y="980.0">PP</text>
 <rect rx="6.0" ry="6.0" x="722.0" y="954.0" width="56.0" height="52.0"/>

@@ -16,6 +16,6 @@ layers:
   - [LGUI, func, SPACE, RET, '', LALT]
   func:
   - [TAB, F1, F2, F3, F4, F5, F6, F7, F8, F9, F10, DEL]
-  - [LCTRL, F11, F12, F13, F14, F15, BRI UP, BRI DN, VOL UP, VOL DN, PP, NEXT]
+  - [LCTRL, F11, F12, F13, F14, F15, BRI DN, BRI UP, VOL DN, VOL UP, PP, NEXT]
   - [LSHFT, '', '', '', '', '', '', '', BT 0, BT 1, BT 2, BT CLR]
   - [LGUI, '', SPACE, RET, '', LALT]

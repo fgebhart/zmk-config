@@ -23,7 +23,7 @@
 
 / {
     behaviors {
-        bspc_del: backspace_delete {
+        bspdel: backspace_delete {
             compatible = "zmk,behavior-mod-morph";
             label = "BACKSPACE_DELETE";
             #binding-cells = <0>;
@@ -35,13 +35,35 @@
 };
 
 / {
+    macros {
+        email: email {
+            label = "my_email";
+            compatible = "zmk,behavior-macro";
+            wait-ms = <10>;
+            tap-ms = <10>;
+            #binding-cells = <0>;
+            bindings
+                = <&macro_tap &kp F &kp A &kp B &kp I &kp A &kp N>
+                , <&macro_tap &kp DOT>
+                , <&macro_tap &kp G &kp E &kp B &kp H &kp A &kp R &kp T>
+                , <&macro_tap &kp AT>
+                , <&macro_tap &kp G &kp M &kp A &kp I &kp L>
+                , <&macro_tap &kp DOT>
+                , <&macro_tap &kp C &kp O &kp M>
+                ;
+        };
+    };
+};
+// if you came until here and managed to decipher my email address, I'm happy to receive a mail from you :)
+
+/ {
         keymap {
                 compatible = "zmk,keymap";
 
                 default {
                         bindings = <
 // |----------+----------+----------+----------+----------+----------|                        |----------+----------+----------+----------+----------+----------|
-     &kp TAB     &kp Q      &kp W      &kp E      &kp R      &kp T                                &kp Y    &kp U      &kp I      &kp O      &kp P      &bspc_del
+     &kp TAB     &kp Q      &kp W      &kp E      &kp R      &kp T                                &kp Y    &kp U      &kp I      &kp O      &kp P      &bspdel
 // |----------+----------+----------+----------+----------+----------|                        |----------+----------+----------+----------+----------+----------|
      &kp LCTRL   &kp A      &kp S      &kp D      &kp F      &kp G                                &kp H    &kp J      &kp K      &kp L      &kp SEMI   &kp SQT
 // |----------+----------+----------+----------+----------+----------|                        |----------+----------+----------+----------+----------+----------|
@@ -55,7 +77,7 @@
                 lower {
                         bindings = <
 // |----------+----------+----------+----------+----------+----------|                        |----------+----------+----------+----------+----------+----------|
-     &kp TAB     &kp N1     &kp N2     &kp N3     &kp N4     &kp N5                              &kp N6    &kp N7     &kp N8      &kp N9    &kp N0     &bspc_del
+     &kp TAB     &kp N1     &kp N2     &kp N3     &kp N4     &kp N5                              &kp N6    &kp N7     &kp N8      &kp N9    &kp N0     &bspdel
 // |----------+----------+----------+----------+----------+----------|                        |----------+----------+----------+----------+----------+----------|
      &kp LCTRL   &trans     &trans     &trans     &trans     &trans                              &kp HOME   &kp LEFT   &kp UP    &kp DOWN   &kp RIGHT  &kp END
 // |----------+----------+----------+----------+----------+----------|                        |----------+----------+----------+----------+----------+----------|
@@ -69,7 +91,7 @@
                 raise {
                         bindings = <
 // |----------+----------+----------+----------+----------+----------|                        |----------+----------+----------+----------+----------+----------|
-     &kp TAB    &kp EXCL   &kp AT     &kp HASH   &kp DLLR   &kp PRCNT                           &kp CARET &kp AMPS &kp KP_MULTIPLY &kp LPAR &kp RPAR   &bspc_del
+     &kp TAB    &kp EXCL   &kp AT     &kp HASH   &kp DLLR   &kp PRCNT                           &kp CARET &kp AMPS &kp KP_MULTIPLY &kp LPAR &kp RPAR   &bspdel
 // |----------+----------+----------+----------+----------+----------|                        |----------+----------+----------+----------+----------+----------|
      &kp LCTRL &kp DE_AE  &kp DE_EURO  &trans     &trans     &trans                             &kp MINUS  &kp EQUAL &kp LBKT    &kp RBKT   &kp BSLH   &kp GRAVE
 // |----------+----------+----------+----------+----------+----------|                        |----------+----------+----------+----------+----------+----------|
@@ -83,11 +105,11 @@
                 func {
                         bindings = <
 // |----------+----------+----------+----------+----------+----------|                        |----------+----------+----------+----------+----------+----------|
-     &kp TAB     &kp F1     &kp F2     &kp F3     &kp F4     &kp F5                              &kp F6     &kp F7     &kp F8     &kp F9     &kp F10   &bspc_del
+     &kp TAB     &kp F1     &kp F2     &kp F3     &kp F4     &kp F5                              &kp F6     &kp F7     &kp F8     &kp F9     &kp F10   &bspdel
 // |----------+----------+----------+----------+----------+----------|                        |----------+----------+----------+----------+----------+----------|
      &kp LCTRL   &kp F11    &kp F12    &kp F13    &kp F14    &kp F15                          &kp C_BRI_DN &kp C_BRI_UP &kp C_VOL_DN &kp C_VOL_UP &kp C_PP &kp C_NEXT
 // |----------+----------+----------+----------+----------+----------|                        |----------+----------+----------+----------+----------+----------|
-     &kp LSHFT   &trans     &trans     &trans     &trans     &trans                              &trans   &trans &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_CLR
+     &kp LSHFT   &trans     &trans     &trans     &email     &trans                            &trans   &trans &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_CLR
 // |----------+----------+----------+----------+----------+----------+----------|  |----------+----------+----------+----------+----------+----------+----------|
                                                   &kp LGUI   &trans    &kp SPACE     &kp RET    &trans     &kp LALT  
 //                                             |----------+----------+----------|  |----------+----------+----------|

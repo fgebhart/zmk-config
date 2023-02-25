@@ -67,16 +67,14 @@
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
             bindings = <&kp BACKSPACE>, <&kp DELETE>;
-            mods = <(MOD_LSFT|MOD_RSFT)>;
-            keep-mods = <(MOD_RSFT)>;
+            mods = <(MOD_LSFT)>;
         };
         ae: ae_accented_vowel {
             label = "ae_accented_vowel";
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
             bindings = <&ae_l>, <&ae_u>;
-            mods = <(MOD_LSFT|MOD_RSFT)>;
-            keep-mods = <(MOD_RSFT)>;
+            mods = <(MOD_LSFT)>;
         };
     };
 };

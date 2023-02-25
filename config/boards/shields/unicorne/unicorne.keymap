@@ -13,10 +13,18 @@
 / {
     behaviors {
         bspdel: backspace_delete {
+            label = "backspace_delete";
             compatible = "zmk,behavior-mod-morph";
-            label = "BACKSPACE_DELETE";
             #binding-cells = <0>;
             bindings = <&kp BACKSPACE>, <&kp DELETE>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+            keep-mods = <(MOD_RSFT)>;
+        };
+        ae: ae_accented_vowel {
+            label = "ae_accented_vowel";
+            compatible = "zmk,behavior-mod-morph";
+            #binding-cells = <0>;
+            bindings = <&kp ae_l>, <&kp ae_u>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
             keep-mods = <(MOD_RSFT)>;
         };
@@ -50,7 +58,21 @@
             bindings
                 = <&macro_press &kp LCTRL>
                 , <&macro_press &kp LSHFT>
-                , <&macro_tap &kp U &kp E &kp 4>
+                , <&macro_tap &kp U &kp E &kp N4>
+                , <&macro_release &kp LSHFT>
+                , <&macro_release &kp LCTRL>
+                ;
+        };
+        ae_u: ae_upper {      // Ä
+            label = "ae_upper";
+            compatible = "zmk,behavior-macro";
+            wait-ms = <10>;
+            tap-ms = <10>;
+            #binding-cells = <0>;
+            bindings
+                = <&macro_press &kp LCTRL>
+                , <&macro_press &kp LSHFT>
+                , <&macro_tap &kp U &kp C &kp N4>
                 , <&macro_release &kp LSHFT>
                 , <&macro_release &kp LCTRL>
                 ;
@@ -96,7 +118,7 @@
 // |----------+----------+----------+----------+----------+----------|                        |----------+----------+----------+----------+----------+----------|
      &kp TAB    &kp EXCL   &kp AT     &kp HASH   &kp DLLR   &kp PRCNT                           &kp CARET &kp AMPS &kp KP_MULTIPLY &kp LPAR &kp RPAR   &bspdel
 // |----------+----------+----------+----------+----------+----------|                        |----------+----------+----------+----------+----------+----------|
-     &kp LCTRL   &ae_l     &trans     &trans     &trans     &trans                             &kp MINUS  &kp EQUAL &kp LBKT    &kp RBKT   &kp BSLH   &kp GRAVE
+     &kp LCTRL    &ae       &trans     &trans     &trans     &trans                             &kp MINUS  &kp EQUAL &kp LBKT    &kp RBKT   &kp BSLH   &kp GRAVE
 // |----------+----------+----------+----------+----------+----------|                        |----------+----------+----------+----------+----------+----------|
      &kp LSHFT   &trans     &trans     &trans     &trans     &trans                             &kp UNDER  &kp PLUS   &kp LBRC   &kp RBRC   &kp PIPE  &kp TILDE
 // |----------+----------+----------+----------+----------+----------+----------|  |----------+----------+----------+----------+----------+----------+----------|

@@ -29,37 +29,23 @@
                 ;
         };
         // if you came until here and managed to decipher my email address, I'm happy to receive a mail from you :)
-        ae_l: ae_lower {      // ä
-            label = "ae_lower";
+
+        ae: ae {      // ä
+            label = "ae_accented_vowel";
             compatible = "zmk,behavior-macro";
             wait-ms = <20>;
             tap-ms = <20>;
             #binding-cells = <0>;
             bindings
-                = <&macro_press &kp LCTRL>
-                , <&macro_press &kp RSHFT>
-                , <&macro_tap &kp U &kp E &kp N4>
-                , <&macro_release &kp RSHFT>
-                , <&macro_release &kp LCTRL>
-                ;
-        };
-        ae_u: ae_upper {      // Ä
-            label = "ae_upper";
-            compatible = "zmk,behavior-macro";
-            wait-ms = <20>;
-            tap-ms = <20>;
-            #binding-cells = <0>;
-            bindings
-                = <&macro_press &kp LCTRL>
-                , <&macro_press &kp RSHFT>
-                , <&macro_tap &kp U &kp C &kp N4>
-                , <&macro_release &kp RSHFT>
-                , <&macro_release &kp LCTRL>
+                = <&macro_press &kp RALT>
+                , <&macro_tap &kp A>
+                , <&macro_release &kp RALT>
                 ;
         };
     };
 };
 
+// mod morphs
 / {
     behaviors {
         bspdel: backspace_delete {
@@ -69,12 +55,13 @@
             bindings = <&kp BACKSPACE>, <&kp DELETE>;
             mods = <(MOD_LSFT)>;
         };
-        ae: ae_accented_vowel {
-            label = "ae_accented_vowel";
+        alt_ae: left_to_right_alt_ae {
+            label = "left_to_right_alt_ae";
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
-            bindings = <&ae_l>, <&ae_u>;
-            mods = <(MOD_LSFT)>;
+            bindings = <&kp A>, <&ae>;
+            mods = <(MOD_LALT)>;
+            keep-mods = <(MOD_LSFT)>;
         };
     };
 };

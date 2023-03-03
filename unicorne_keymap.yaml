@@ -28,8 +28,30 @@ layers:
   - [LGUI, lower, SPACE, RET, raise, LALT]
   lower:
   - [TAB, '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '&bspdel']
-  - [LCTRL, '', '', '', '', '', '', LEFT, UP, DOWN, RIGHT, '']
-  - [LSHFT, '', '', '', '', '', HOME, '', PG UP, PG DN, END, '']
+  - - LCTRL
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - LEFT
+    - UP
+    - DOWN
+    - RIGHT
+    - {t: '''', h: RALT}
+  - - LSHFT
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - HOME
+    - ''
+    - PG UP
+    - PG DN
+    - END
+    - {t: ESC, h: RSHFT}
   - [LGUI, '', SPACE, RET, func, LALT]
   raise:
   - [TAB, '!', '@', '#', $, '%', ^, '&', KP MULTIPLY, (, ), '&bspdel']

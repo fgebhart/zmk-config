@@ -190,6 +190,8 @@ path {
 <rect rx="6.0" ry="6.0" x="662.0" y="394.0" width="56.0" height="52.0"/>
 <text x="690.0" y="420.0">RIGHT</text>
 <rect rx="6.0" ry="6.0" x="722.0" y="394.0" width="56.0" height="52.0"/>
+<text x="750.0" y="420.0">&#x27;</text>
+<text x="750.0" y="439.0" class="small">RALT</text>
 <rect rx="6.0" ry="6.0" x="32.0" y="450.0" width="56.0" height="52.0"/>
 <text x="60.0" y="476.0">LSHFT</text>
 <rect rx="6.0" ry="6.0" x="92.0" y="450.0" width="56.0" height="52.0"/>
@@ -209,6 +211,8 @@ path {
 <rect rx="6.0" ry="6.0" x="662.0" y="450.0" width="56.0" height="52.0"/>
 <text x="690.0" y="476.0">END</text>
 <rect rx="6.0" ry="6.0" x="722.0" y="450.0" width="56.0" height="52.0"/>
+<text x="750.0" y="476.0">ESC</text>
+<text x="750.0" y="495.0" class="small">RSHFT</text>
 <rect rx="6.0" ry="6.0" x="212.0" y="506.0" width="56.0" height="52.0"/>
 <text x="240.0" y="532.0">LGUI</text>
 <rect rx="6.0" ry="6.0" x="272.0" y="506.0" width="56.0" height="52.0"/>

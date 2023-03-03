@@ -29,19 +29,6 @@
                 ;
         };
         // if you came until here and managed to decipher my email address, I'm happy to receive a mail from you :)
-
-        ae: ae {      // ä
-            label = "ae_accented_vowel";
-            compatible = "zmk,behavior-macro";
-            wait-ms = <20>;
-            tap-ms = <20>;
-            #binding-cells = <0>;
-            bindings
-                = <&macro_press &kp RALT>
-                , <&macro_tap &kp A>
-                , <&macro_release &kp RALT>
-                ;
-        };
     };
 };
 
@@ -81,9 +68,9 @@
 // |----------+----------+----------+----------+----------+----------|                        |----------+----------+----------+----------+----------+----------|
      &kp TAB     &kp N1     &kp N2     &kp N3     &kp N4     &kp N5                              &kp N6    &kp N7     &kp N8      &kp N9    &kp N0     &bspdel
 // |----------+----------+----------+----------+----------+----------|                        |----------+----------+----------+----------+----------+----------|
-     &kp LCTRL   &trans     &trans     &trans     &trans     &trans                              &trans    &kp LEFT   &kp UP     &kp DOWN  &kp RIGHT    &trans
+     &kp LCTRL   &trans     &trans     &trans     &trans     &trans                              &trans    &kp LEFT   &kp UP     &kp DOWN  &kp RIGHT &mt RALT SQT
 // |----------+----------+----------+----------+----------+----------|                        |----------+----------+----------+----------+----------+----------|
-     &kp LSHFT   &trans     &trans     &trans     &trans     &trans                             &kp HOME    &trans    &kp PG_UP  &kp PG_DN   &kp END    &trans
+     &kp LSHFT   &trans     &trans     &trans     &trans     &trans                             &kp HOME    &trans    &kp PG_UP  &kp PG_DN   &kp END &mt RSHFT ESC
 // |----------+----------+----------+----------+----------+----------+----------|  |----------+----------+----------+----------+----------+----------+----------|
                                                   &kp LGUI   &trans   &kp SPACE      &kp RET     &mo 3     &kp LALT  
 //                                             |----------+----------+----------|  |----------+----------+----------|

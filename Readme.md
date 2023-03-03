@@ -9,7 +9,7 @@ To render the keymap, the [`keymap-drawer` library](https://github.com/caksoylar
 following commands to update the rendered keymap:
 
 ```
-keymap parse -c 12 -z unicorne.keymap > unicorne_keymap.yaml
+keymap parse -c 12 -z config/boards/shields/unicorne/unicorne.keymap > unicorne_keymap.yaml
 keymap draw -o '{split: true, rows: 3, columns: 6, thumbs: 3}' unicorne_keymap.yaml >unicorne_keymap.svg
 ```
 

@@ -1,6 +1,6 @@
 layers:
   default:
-  - [TAB, Q, W, E, R, T, Y, U, I, O, P, '&bspdel']
+  - [TAB, Q, W, E, R, T, Y, U, I, O, P, BSPC]
   - - LCTRL
     - A
     - S
@@ -46,8 +46,8 @@ layers:
     - ''
     - ''
     - ''
-    - HOME
     - ''
+    - HOME
     - PG UP
     - PG DN
     - END

@@ -85,7 +85,7 @@ path {
 <rect rx="6.0" ry="6.0" x="662.0" y="58.0" width="56.0" height="52.0"/>
 <text x="690.0" y="84.0">P</text>
 <rect rx="6.0" ry="6.0" x="722.0" y="58.0" width="56.0" height="52.0"/>
-<text x="750.0" y="84.0">&amp;bspdel</text>
+<text x="750.0" y="84.0">BSPC</text>
 <rect rx="6.0" ry="6.0" x="32.0" y="114.0" width="56.0" height="52.0"/>
 <text x="60.0" y="140.0">LCTRL</text>
 <rect rx="6.0" ry="6.0" x="92.0" y="114.0" width="56.0" height="52.0"/>
@@ -200,8 +200,8 @@ path {
 <rect rx="6.0" ry="6.0" x="272.0" y="450.0" width="56.0" height="52.0"/>
 <rect rx="6.0" ry="6.0" x="332.0" y="450.0" width="56.0" height="52.0"/>
 <rect rx="6.0" ry="6.0" x="422.0" y="450.0" width="56.0" height="52.0"/>
-<text x="450.0" y="476.0">HOME</text>
 <rect rx="6.0" ry="6.0" x="482.0" y="450.0" width="56.0" height="52.0"/>
+<text x="510.0" y="476.0">HOME</text>
 <rect rx="6.0" ry="6.0" x="542.0" y="450.0" width="56.0" height="52.0"/>
 <text x="570.0" y="476.0">
 <tspan x="570.0" dy="-0.6em">PG</tspan><tspan x="570.0" dy="1.2em">UP</tspan></text>

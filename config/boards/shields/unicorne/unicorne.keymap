@@ -15,8 +15,8 @@
         email: email {
             label = "my_email";
             compatible = "zmk,behavior-macro";
-            wait-ms = <2>;
-            tap-ms = <2>;
+            wait-ms = <5>;
+            tap-ms = <5>;
             #binding-cells = <0>;
             bindings
                 = <&macro_tap &kp F &kp A &kp B &kp I &kp A &kp N>

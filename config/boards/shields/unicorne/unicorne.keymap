@@ -10,30 +10,6 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/outputs.h>
 
-#include <dt-bindings/zmk/hid_usage.h>
-#include <dt-bindings/zmk/hid_usage_pages.h>
-#include <dt-bindings/zmk/modifiers.h>
-
-// definition of special keys mutated vowels (from german layout)
-#define DE_AE QUOT         // Ä
-#define DE_OE SCLN         // Ö
-#define DE_UE LBRC         // Ü
-#define DE_SS MINS         // ß
-#define DE_EURO RA(N5)     // €
-
-/ {
-    behaviors {
-        bspdel: backspace_delete {
-            compatible = "zmk,behavior-mod-morph";
-            label = "BACKSPACE_DELETE";
-            #binding-cells = <0>;
-            bindings = <&kp BACKSPACE>, <&kp DELETE>;
-            mods = <(MOD_LSFT|MOD_RSFT)>;
-            keep-mods = <(MOD_RSFT)>;
-        };
-    };
-};
-
 / {
     macros {
         email: email {
@@ -52,9 +28,22 @@
                 , <&macro_tap &kp C &kp O &kp M>
                 ;
         };
+        // if you came until here and managed to decipher my email address, I'm happy to receive a mail from you :)
     };
 };
-// if you came until here and managed to decipher my email address, I'm happy to receive a mail from you :)
+
+// mod morphs
+/ {
+    behaviors {
+        bspdel: backspace_delete {
+            label = "backspace_delete";
+            compatible = "zmk,behavior-mod-morph";
+            #binding-cells = <0>;
+            bindings = <&kp BACKSPACE>, <&kp DELETE>;
+            mods = <(MOD_LSFT)>;
+        };
+    };
+};
 
 / {
         keymap {
@@ -65,9 +54,9 @@
 // |----------+----------+----------+----------+----------+----------|                        |----------+----------+----------+----------+----------+----------|
      &kp TAB     &kp Q      &kp W      &kp E      &kp R      &kp T                                &kp Y    &kp U      &kp I      &kp O      &kp P      &bspdel
 // |----------+----------+----------+----------+----------+----------|                        |----------+----------+----------+----------+----------+----------|
-     &kp LCTRL   &kp A      &kp S      &kp D      &kp F      &kp G                                &kp H    &kp J      &kp K      &kp L      &kp SEMI   &kp SQT
+     &kp LCTRL   &kp A      &kp S      &kp D      &kp F      &kp G                                &kp H    &kp J      &kp K      &kp L      &kp SEMI &mt RALT SQT
 // |----------+----------+----------+----------+----------+----------|                        |----------+----------+----------+----------+----------+----------|
-     &kp LSHFT   &kp Z      &kp X      &kp C      &kp V      &kp B                                &kp N    &kp M      &kp COMMA  &kp DOT    &kp FSLH   &kp ESC
+     &kp LSHFT   &kp Z      &kp X      &kp C      &kp V      &kp B                                &kp N    &kp M      &kp COMMA  &kp DOT    &kp FSLH &mt RSHFT ESC
 // |----------+----------+----------+----------+----------+----------+----------|  |----------+----------+----------+----------+----------+----------+----------|
                                                   &kp LGUI   &mo 1    &kp SPACE      &kp RET      &mo 2    &kp LALT  
 //                                             |----------+----------+----------|  |----------+----------+----------|
@@ -79,9 +68,9 @@
 // |----------+----------+----------+----------+----------+----------|                        |----------+----------+----------+----------+----------+----------|
      &kp TAB     &kp N1     &kp N2     &kp N3     &kp N4     &kp N5                              &kp N6    &kp N7     &kp N8      &kp N9    &kp N0     &bspdel
 // |----------+----------+----------+----------+----------+----------|                        |----------+----------+----------+----------+----------+----------|
-     &kp LCTRL   &trans     &trans     &trans     &trans     &trans                              &kp HOME   &kp LEFT   &kp UP    &kp DOWN   &kp RIGHT  &kp END
+     &kp LCTRL   &trans     &trans     &trans     &trans     &trans                              &trans    &kp LEFT   &kp UP     &kp DOWN  &kp RIGHT &mt RALT SQT
 // |----------+----------+----------+----------+----------+----------|                        |----------+----------+----------+----------+----------+----------|
-     &kp LSHFT   &trans     &trans     &trans     &trans     &trans                              &trans     &trans    &kp PG_UP  &kp PG_DN   &trans     &trans
+     &kp LSHFT   &trans     &trans     &trans     &trans     &trans                             &kp HOME    &trans    &kp PG_UP  &kp PG_DN   &kp END &mt RSHFT ESC
 // |----------+----------+----------+----------+----------+----------+----------|  |----------+----------+----------+----------+----------+----------+----------|
                                                   &kp LGUI   &trans   &kp SPACE      &kp RET     &mo 3     &kp LALT  
 //                                             |----------+----------+----------|  |----------+----------+----------|
@@ -93,9 +82,9 @@
 // |----------+----------+----------+----------+----------+----------|                        |----------+----------+----------+----------+----------+----------|
      &kp TAB    &kp EXCL   &kp AT     &kp HASH   &kp DLLR   &kp PRCNT                           &kp CARET &kp AMPS &kp KP_MULTIPLY &kp LPAR &kp RPAR   &bspdel
 // |----------+----------+----------+----------+----------+----------|                        |----------+----------+----------+----------+----------+----------|
-     &kp LCTRL &kp DE_AE  &kp DE_EURO  &trans     &trans     &trans                             &kp MINUS  &kp EQUAL &kp LBKT    &kp RBKT   &kp BSLH   &kp GRAVE
+     &kp LCTRL   &trans     &trans     &trans     &trans     &trans                             &kp MINUS  &kp EQUAL &kp LBKT    &kp RBKT   &kp BSLH   &kp GRAVE
 // |----------+----------+----------+----------+----------+----------|                        |----------+----------+----------+----------+----------+----------|
-     &kp LSHFT  &trans     &trans     &trans     &trans     &trans                              &kp UNDER  &kp PLUS   &kp LBRC   &kp RBRC   &kp PIPE  &kp TILDE
+     &kp LSHFT   &trans     &trans     &trans     &trans     &trans                             &kp UNDER  &kp PLUS   &kp LBRC   &kp RBRC   &kp PIPE  &kp TILDE
 // |----------+----------+----------+----------+----------+----------+----------|  |----------+----------+----------+----------+----------+----------+----------|
                                                  &kp LGUI   &mo 3     &kp SPACE      &kp RET    &trans     &kp LALT  
 //                                             |----------+----------+----------|  |----------+----------+----------|

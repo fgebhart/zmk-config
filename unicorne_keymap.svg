@@ -110,6 +110,7 @@ path {
 <text x="690.0" y="140.0">;</text>
 <rect rx="6.0" ry="6.0" x="722.0" y="114.0" width="56.0" height="52.0"/>
 <text x="750.0" y="140.0">&#x27;</text>
+<text x="750.0" y="159.0" class="small">RALT</text>
 <rect rx="6.0" ry="6.0" x="32.0" y="170.0" width="56.0" height="52.0"/>
 <text x="60.0" y="196.0">LSHFT</text>
 <rect rx="6.0" ry="6.0" x="92.0" y="170.0" width="56.0" height="52.0"/>
@@ -134,6 +135,7 @@ path {
 <text x="690.0" y="196.0">/</text>
 <rect rx="6.0" ry="6.0" x="722.0" y="170.0" width="56.0" height="52.0"/>
 <text x="750.0" y="196.0">ESC</text>
+<text x="750.0" y="215.0" class="small">RSHFT</text>
 <rect rx="6.0" ry="6.0" x="212.0" y="226.0" width="56.0" height="52.0"/>
 <text x="240.0" y="252.0">LGUI</text>
 <rect rx="6.0" ry="6.0" x="272.0" y="226.0" width="56.0" height="52.0"/>
@@ -179,7 +181,6 @@ path {
 <rect rx="6.0" ry="6.0" x="272.0" y="394.0" width="56.0" height="52.0"/>
 <rect rx="6.0" ry="6.0" x="332.0" y="394.0" width="56.0" height="52.0"/>
 <rect rx="6.0" ry="6.0" x="422.0" y="394.0" width="56.0" height="52.0"/>
-<text x="450.0" y="420.0">HOME</text>
 <rect rx="6.0" ry="6.0" x="482.0" y="394.0" width="56.0" height="52.0"/>
 <text x="510.0" y="420.0">LEFT</text>
 <rect rx="6.0" ry="6.0" x="542.0" y="394.0" width="56.0" height="52.0"/>
@@ -189,7 +190,6 @@ path {
 <rect rx="6.0" ry="6.0" x="662.0" y="394.0" width="56.0" height="52.0"/>
 <text x="690.0" y="420.0">RIGHT</text>
 <rect rx="6.0" ry="6.0" x="722.0" y="394.0" width="56.0" height="52.0"/>
-<text x="750.0" y="420.0">END</text>
 <rect rx="6.0" ry="6.0" x="32.0" y="450.0" width="56.0" height="52.0"/>
 <text x="60.0" y="476.0">LSHFT</text>
 <rect rx="6.0" ry="6.0" x="92.0" y="450.0" width="56.0" height="52.0"/>
@@ -198,6 +198,7 @@ path {
 <rect rx="6.0" ry="6.0" x="272.0" y="450.0" width="56.0" height="52.0"/>
 <rect rx="6.0" ry="6.0" x="332.0" y="450.0" width="56.0" height="52.0"/>
 <rect rx="6.0" ry="6.0" x="422.0" y="450.0" width="56.0" height="52.0"/>
+<text x="450.0" y="476.0">HOME</text>
 <rect rx="6.0" ry="6.0" x="482.0" y="450.0" width="56.0" height="52.0"/>
 <rect rx="6.0" ry="6.0" x="542.0" y="450.0" width="56.0" height="52.0"/>
 <text x="570.0" y="476.0">
@@ -206,6 +207,7 @@ path {
 <text x="630.0" y="476.0">
 <tspan x="630.0" dy="-0.6em">PG</tspan><tspan x="630.0" dy="1.2em">DN</tspan></text>
 <rect rx="6.0" ry="6.0" x="662.0" y="450.0" width="56.0" height="52.0"/>
+<text x="690.0" y="476.0">END</text>
 <rect rx="6.0" ry="6.0" x="722.0" y="450.0" width="56.0" height="52.0"/>
 <rect rx="6.0" ry="6.0" x="212.0" y="506.0" width="56.0" height="52.0"/>
 <text x="240.0" y="532.0">LGUI</text>
@@ -247,9 +249,7 @@ path {
 <rect rx="6.0" ry="6.0" x="32.0" y="674.0" width="56.0" height="52.0"/>
 <text x="60.0" y="700.0">LCTRL</text>
 <rect rx="6.0" ry="6.0" x="92.0" y="674.0" width="56.0" height="52.0"/>
-<text x="120.0" y="700.0">QUOT</text>
 <rect rx="6.0" ry="6.0" x="152.0" y="674.0" width="56.0" height="52.0"/>
-<text x="180.0" y="700.0">RA(5)</text>
 <rect rx="6.0" ry="6.0" x="212.0" y="674.0" width="56.0" height="52.0"/>
 <rect rx="6.0" ry="6.0" x="272.0" y="674.0" width="56.0" height="52.0"/>
 <rect rx="6.0" ry="6.0" x="332.0" y="674.0" width="56.0" height="52.0"/>

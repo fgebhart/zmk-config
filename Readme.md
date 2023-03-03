@@ -15,5 +15,5 @@ keymap draw -o '{split: true, rows: 3, columns: 6, thumbs: 3}' unicorne_keymap.y
 
 This produces the following SVG file:
 
-![](https://github.com/fgebhart/zmk-config/raw/main/config/boards/shields/unicorne/unicorne_keymap.svg)
+![](https://github.com/fgebhart/zmk-config/raw/main/unicorne_keymap.svg)
 

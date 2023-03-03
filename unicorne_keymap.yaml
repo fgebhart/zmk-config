@@ -1,17 +1,39 @@
 layers:
   default:
   - [TAB, Q, W, E, R, T, Y, U, I, O, P, '&bspdel']
-  - [LCTRL, A, S, D, F, G, H, J, K, L, ;, '''']
-  - [LSHFT, Z, X, C, V, B, N, M, ',', ., /, ESC]
+  - - LCTRL
+    - A
+    - S
+    - D
+    - F
+    - G
+    - H
+    - J
+    - K
+    - L
+    - ;
+    - {t: '''', h: RALT}
+  - - LSHFT
+    - Z
+    - X
+    - C
+    - V
+    - B
+    - N
+    - M
+    - ','
+    - .
+    - /
+    - {t: ESC, h: RSHFT}
   - [LGUI, lower, SPACE, RET, raise, LALT]
   lower:
   - [TAB, '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '&bspdel']
-  - [LCTRL, '', '', '', '', '', HOME, LEFT, UP, DOWN, RIGHT, END]
-  - [LSHFT, '', '', '', '', '', '', '', PG UP, PG DN, '', '']
+  - [LCTRL, '', '', '', '', '', '', LEFT, UP, DOWN, RIGHT, '']
+  - [LSHFT, '', '', '', '', '', HOME, '', PG UP, PG DN, END, '']
   - [LGUI, '', SPACE, RET, func, LALT]
   raise:
   - [TAB, '!', '@', '#', $, '%', ^, '&', KP MULTIPLY, (, ), '&bspdel']
-  - [LCTRL, QUOT, RA(5), '', '', '', '-', '=', '[', ']', \, '`']
+  - [LCTRL, '', '', '', '', '', '-', '=', '[', ']', \, '`']
   - [LSHFT, '', '', '', '', '', _, +, '{', '}', '|', '~']
   - [LGUI, func, SPACE, RET, '', LALT]
   func:

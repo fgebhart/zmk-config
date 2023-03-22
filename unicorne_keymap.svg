@@ -87,7 +87,7 @@ path {
 <rect rx="6.0" ry="6.0" x="722.0" y="58.0" width="56.0" height="52.0"/>
 <text x="750.0" y="84.0">BSPC</text>
 <rect rx="6.0" ry="6.0" x="32.0" y="114.0" width="56.0" height="52.0"/>
-<text x="60.0" y="140.0">LCTRL</text>
+<text x="60.0" y="140.0">LSHFT</text>
 <rect rx="6.0" ry="6.0" x="92.0" y="114.0" width="56.0" height="52.0"/>
 <text x="120.0" y="140.0">A</text>
 <rect rx="6.0" ry="6.0" x="152.0" y="114.0" width="56.0" height="52.0"/>
@@ -110,9 +110,9 @@ path {
 <text x="690.0" y="140.0">;</text>
 <rect rx="6.0" ry="6.0" x="722.0" y="114.0" width="56.0" height="52.0"/>
 <text x="750.0" y="140.0">&#x27;</text>
-<text x="750.0" y="159.0" class="small">RALT</text>
+<text x="750.0" y="159.0" class="small">RSHFT</text>
 <rect rx="6.0" ry="6.0" x="32.0" y="170.0" width="56.0" height="52.0"/>
-<text x="60.0" y="196.0">LSHFT</text>
+<text x="60.0" y="196.0">LCTRL</text>
 <rect rx="6.0" ry="6.0" x="92.0" y="170.0" width="56.0" height="52.0"/>
 <text x="120.0" y="196.0">Z</text>
 <rect rx="6.0" ry="6.0" x="152.0" y="170.0" width="56.0" height="52.0"/>
@@ -135,7 +135,7 @@ path {
 <text x="690.0" y="196.0">/</text>
 <rect rx="6.0" ry="6.0" x="722.0" y="170.0" width="56.0" height="52.0"/>
 <text x="750.0" y="196.0">ESC</text>
-<text x="750.0" y="215.0" class="small">RSHFT</text>
+<text x="750.0" y="215.0" class="small">RALT</text>
 <rect rx="6.0" ry="6.0" x="212.0" y="226.0" width="56.0" height="52.0"/>
 <text x="240.0" y="252.0">LGUI</text>
 <rect rx="6.0" ry="6.0" x="272.0" y="226.0" width="56.0" height="52.0"/>
@@ -174,7 +174,7 @@ path {
 <rect rx="6.0" ry="6.0" x="722.0" y="338.0" width="56.0" height="52.0"/>
 <text x="750.0" y="364.0">&amp;bspdel</text>
 <rect rx="6.0" ry="6.0" x="32.0" y="394.0" width="56.0" height="52.0"/>
-<text x="60.0" y="420.0">LCTRL</text>
+<text x="60.0" y="420.0">LSHFT</text>
 <rect rx="6.0" ry="6.0" x="92.0" y="394.0" width="56.0" height="52.0"/>
 <rect rx="6.0" ry="6.0" x="152.0" y="394.0" width="56.0" height="52.0"/>
 <rect rx="6.0" ry="6.0" x="212.0" y="394.0" width="56.0" height="52.0"/>
@@ -191,9 +191,9 @@ path {
 <text x="690.0" y="420.0">RIGHT</text>
 <rect rx="6.0" ry="6.0" x="722.0" y="394.0" width="56.0" height="52.0"/>
 <text x="750.0" y="420.0">&#x27;</text>
-<text x="750.0" y="439.0" class="small">RALT</text>
+<text x="750.0" y="439.0" class="small">RSHFT</text>
 <rect rx="6.0" ry="6.0" x="32.0" y="450.0" width="56.0" height="52.0"/>
-<text x="60.0" y="476.0">LSHFT</text>
+<text x="60.0" y="476.0">LCTRL</text>
 <rect rx="6.0" ry="6.0" x="92.0" y="450.0" width="56.0" height="52.0"/>
 <rect rx="6.0" ry="6.0" x="152.0" y="450.0" width="56.0" height="52.0"/>
 <rect rx="6.0" ry="6.0" x="212.0" y="450.0" width="56.0" height="52.0"/>
@@ -212,7 +212,7 @@ path {
 <text x="690.0" y="476.0">END</text>
 <rect rx="6.0" ry="6.0" x="722.0" y="450.0" width="56.0" height="52.0"/>
 <text x="750.0" y="476.0">ESC</text>
-<text x="750.0" y="495.0" class="small">RSHFT</text>
+<text x="750.0" y="495.0" class="small">RALT</text>
 <rect rx="6.0" ry="6.0" x="212.0" y="506.0" width="56.0" height="52.0"/>
 <text x="240.0" y="532.0">LGUI</text>
 <rect rx="6.0" ry="6.0" x="272.0" y="506.0" width="56.0" height="52.0"/>
@@ -251,7 +251,7 @@ path {
 <rect rx="6.0" ry="6.0" x="722.0" y="618.0" width="56.0" height="52.0"/>
 <text x="750.0" y="644.0">&amp;bspdel</text>
 <rect rx="6.0" ry="6.0" x="32.0" y="674.0" width="56.0" height="52.0"/>
-<text x="60.0" y="700.0">LCTRL</text>
+<text x="60.0" y="700.0">LSHFT</text>
 <rect rx="6.0" ry="6.0" x="92.0" y="674.0" width="56.0" height="52.0"/>
 <rect rx="6.0" ry="6.0" x="152.0" y="674.0" width="56.0" height="52.0"/>
 <rect rx="6.0" ry="6.0" x="212.0" y="674.0" width="56.0" height="52.0"/>
@@ -270,7 +270,7 @@ path {
 <rect rx="6.0" ry="6.0" x="722.0" y="674.0" width="56.0" height="52.0"/>
 <text x="750.0" y="700.0">`</text>
 <rect rx="6.0" ry="6.0" x="32.0" y="730.0" width="56.0" height="52.0"/>
-<text x="60.0" y="756.0">LSHFT</text>
+<text x="60.0" y="756.0">LCTRL</text>
 <rect rx="6.0" ry="6.0" x="92.0" y="730.0" width="56.0" height="52.0"/>
 <rect rx="6.0" ry="6.0" x="152.0" y="730.0" width="56.0" height="52.0"/>
 <rect rx="6.0" ry="6.0" x="212.0" y="730.0" width="56.0" height="52.0"/>
@@ -325,7 +325,7 @@ path {
 <rect rx="6.0" ry="6.0" x="722.0" y="898.0" width="56.0" height="52.0"/>
 <text x="750.0" y="924.0">&amp;bspdel</text>
 <rect rx="6.0" ry="6.0" x="32.0" y="954.0" width="56.0" height="52.0"/>
-<text x="60.0" y="980.0">LCTRL</text>
+<text x="60.0" y="980.0">LSHFT</text>
 <rect rx="6.0" ry="6.0" x="92.0" y="954.0" width="56.0" height="52.0"/>
 <text x="120.0" y="980.0">F11</text>
 <rect rx="6.0" ry="6.0" x="152.0" y="954.0" width="56.0" height="52.0"/>
@@ -353,7 +353,7 @@ path {
 <rect rx="6.0" ry="6.0" x="722.0" y="954.0" width="56.0" height="52.0"/>
 <text x="750.0" y="980.0">NEXT</text>
 <rect rx="6.0" ry="6.0" x="32.0" y="1010.0" width="56.0" height="52.0"/>
-<text x="60.0" y="1036.0">LSHFT</text>
+<text x="60.0" y="1036.0">LCTRL</text>
 <rect rx="6.0" ry="6.0" x="92.0" y="1010.0" width="56.0" height="52.0"/>
 <rect rx="6.0" ry="6.0" x="152.0" y="1010.0" width="56.0" height="52.0"/>
 <rect rx="6.0" ry="6.0" x="212.0" y="1010.0" width="56.0" height="52.0"/>
